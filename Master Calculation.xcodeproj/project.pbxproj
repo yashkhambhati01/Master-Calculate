@@ -53,6 +53,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A61EB5BE2C1C10DD0087BAF3 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6346AE22B58FC720078ECB8 /* result.swift */,
+				A6D29F6E2C1AFA2B0077D15E /* AboutUsViewController.swift */,
+				A6346AE02B58FC330078ECB8 /* schoolResult.swift */,
+				A6346ADE2B58FC0E0078ECB8 /* eMICalculator.swift */,
+				A6346ADC2B58FBF60078ECB8 /* discountCalculator.swift */,
+				A6346ADA2B58FBC50078ECB8 /* interestCalculator.swift */,
+				A6346AD82B58FB230078ECB8 /* mutualFundCalculator.swift */,
+				A6BD7F982B4D247100190612 /* AppDelegate.swift */,
+				A6BD7F9A2B4D247100190612 /* SceneDelegate.swift */,
+				A6BD7F9C2B4D247100190612 /* ViewController.swift */,
+				A634D6842B4E62DC001986DB /* MainPage.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		A61EB5BF2C1C10EE0087BAF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6BD7F9E2B4D247100190612 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A6BD7F8C2B4D247000190612 = {
 			isa = PBXGroup;
 			children = (
@@ -72,18 +98,8 @@
 		A6BD7F972B4D247100190612 /* Master Calculation */ = {
 			isa = PBXGroup;
 			children = (
-				A6346AE22B58FC720078ECB8 /* result.swift */,
-				A6D29F6E2C1AFA2B0077D15E /* AboutUsViewController.swift */,
-				A6346AE02B58FC330078ECB8 /* schoolResult.swift */,
-				A6346ADE2B58FC0E0078ECB8 /* eMICalculator.swift */,
-				A6346ADC2B58FBF60078ECB8 /* discountCalculator.swift */,
-				A6346ADA2B58FBC50078ECB8 /* interestCalculator.swift */,
-				A6346AD82B58FB230078ECB8 /* mutualFundCalculator.swift */,
-				A6BD7F982B4D247100190612 /* AppDelegate.swift */,
-				A6BD7F9A2B4D247100190612 /* SceneDelegate.swift */,
-				A6BD7F9C2B4D247100190612 /* ViewController.swift */,
-				A634D6842B4E62DC001986DB /* MainPage.swift */,
-				A6BD7F9E2B4D247100190612 /* Main.storyboard */,
+				A61EB5BE2C1C10DD0087BAF3 /* Files */,
+				A61EB5BF2C1C10EE0087BAF3 /* View */,
 				A6BD7FA12B4D247100190612 /* Assets.xcassets */,
 				A6BD7FA32B4D247100190612 /* LaunchScreen.storyboard */,
 				A6BD7FA62B4D247100190612 /* Info.plist */,
